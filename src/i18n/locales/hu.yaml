@@ -50,7 +50,7 @@ open_letter_cta: "Olvasd el nyílt levelünket az Android fejlesztőellenőrzés
 # ============================================================================
 # Meta
 # Hero
-hero_lede: "A telefonod hamarosan megszűnik a tiéd lenni."
+hero_lede: "A telefonod többé nem lesz igazán a tied."
 hero_countdown_label: "nap a zárolásig"
 hero_sub: "2026 szeptemberétől egy csendes frissítés, amelyet a Google a felhasználók beleegyezése nélkül küld ki, <strong>blokkolni fog minden Android-alkalmazást</strong>, amelynek fejlesztője nem regisztrált a Google-nál, nem fogadta el a feltételeket, és nem igazolta a személyazonosságát."
 hero_kicker: "Minden alkalmazás és minden eszköz világszerte, kilépési lehetőség nélkül."
@@ -67,11 +67,11 @@ what_pullquote: "Ha egy fejlesztő nem felel meg, az alkalmazásai csendben blok
 # Who this hurts
 impact_heading: "Kit érint ez"
 impact_you_heading: "Téged"
-impact_you_p1: "Android-telefont vettél, mert a Google azt mondta, hogy nyílt. Telepíthetted, amit akartál, és ez volt az alku."
+impact_you_p1: "Android-telefont vettél, mert a Google azt mondta, hogy nyílt. Telepíthetted, amit akartál, és ez volt a megállapodás."
 impact_you_p2: "A Google most visszamenőlegesen átírja ezt az alkut a már birtokolt eszközökön. A frissítés után csak olyan szoftvert futtathatsz, amelyet a Google előzetesen jóváhagyott. A saját telefonodon: a <i>te</i> tulajdonodon."
 impact_dev_heading: "Független fejlesztők"
 impact_dev_p1: "Egy tinédzser első alkalmazása, egy önkéntes adatvédelmi eszköz vagy egy vállalat belső bétája – nem számít. 2026 szeptemberétől egyik sem telepíthető a Google jóváhagyása nélkül."
-impact_dev_p2: "<a href=\"https://f-droid.org\" target=\"_blank\">F-Droid &#8599;</a>, több ezer szabad és nyílt forráskódú Android-alkalmazás otthona, ezt <a href=\"https://f-droid.org/en/2025/09/29/google-...\" target=\"_blank\">„létfontosságú fenyegetésnek”</a> nevezte."
+impact_dev_p2: "<a href=\"https://f-droid.org\" target=\"_blank\">F-Droid &#8599;</a>, több ezer szabad és nyílt forráskódú Android-alkalmazás otthona, ezt <a href=\"https://f-droid.org/en/2025/09/29/google-developer-registration-decree.html\" target=\"_blank\">„létfontosságú fenyegetésnek”</a> nevezte."
 impact_gov_heading: "Kormányok és civil társadalom"
 impact_gov_p1: "A Google-nak <a href=\"https://www.aclu.org/news/free-speech/app-store-oligopoly\" target=\"_blank\">dokumentált múltja van &#8599;</a> abban, hogy eleget tesz autoriter kormányok alkalmazás-eltávolítási követeléseinek."
 impact_gov_p2: "Az <a href=\"https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship\" target=\"_blank\">EFF szerint &#8599;</a> az alkalmazás-ellenőrzés „a cenzúra egyre bővülő útja”."
@@ -104,7 +104,7 @@ obj_sideloading_a: "Kilenc lépés, 24 órás várakozás, elrejtve a fejlesztő
 obj_hide_q: "\"...csak akkor probléma, ha van mit rejtegetned?\""
 obj_hide_a: "A visszaélést bejelentők, újságírók és aktivisták lesznek az első áldozatok autoriter környezetben. A kiszolgáltatott helyzetben lévők számára ez valós kockázat."
 obj_apple_q: "\"...ugyanaz, mint amit az Apple csinál?\""
-obj_apple_a: "Az Apple az első naptól zárt rendszer volt. Az emberek az Androidot <em>azért választották, mert más volt</em>. Az „Az Apple is csinálja” gyenge érv."
+obj_apple_a: "Az Apple az első naptól zárt rendszer volt. Az emberek az Androidot <em>azért választották, mert más volt</em>. „Az Apple is csinálja” gyenge érv."
 obj_cost_q: "\"...csak 25 dollár és némi papírmunka?\""
 obj_cost_a: "Sokak számára ez valós akadály: diákok, önkéntesek vagy korlátozott hozzáférésű régiók fejlesztői számára."
 # Fight back
