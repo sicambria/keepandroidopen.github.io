@@ -4,33 +4,31 @@
 #
 # HOW TO TRANSLATE:
 #
-#   1. Find the key you want to translate in the "TRANSLATABLE KEYS" section
-#      below (they are listed as comments with their English values).
+# 1. Find the key you want to translate in the "TRANSLATABLE KEYS" section
+# below (they are listed as comments with their English values).
 #
-#   2. Uncomment the line (remove the leading "# ") and replace the English
-#      text with your translation.
+# 2. Uncomment the line (remove the leading "# ") and replace the English
+# text with your translation.
 #
-#   3. Keep HTML tags (<strong>, <a href="...">, <em>, <i>) intact — only
-#      translate the visible text between the tags.
+# 3. Keep HTML tags (<strong>, <a href="...">, <em>, <i>) intact — only
+# translate the visible text between the tags.
 #
-#   4. Keep YAML quoting intact: use double quotes for values that contain
-#      special characters. For long values, use >- for folded scalars.
+# 4. Keep YAML quoting intact: use double quotes for values that contain
+# special characters. For long values, use >- for folded scalars.
 #
-#   5. Validate your file at https://onlineyamltools.com/validate-yaml
-#      The file must be valid YAML and must NOT contain duplicate keys.
+# 5. Validate your file at https://onlineyamltools.com/validate-yaml
+# The file must be valid YAML and must NOT contain duplicate keys.
 #
-#   6. Submit your changes as a pull request on GitHub.
+# 6. Submit your changes as a pull request on GitHub.
 #
 # IMPORTANT:
-#   Translations MAY be drafted with the assistance of a machine translation
-#   tool or LLM, but they MUST be reviewed and submitted by a NATIVE SPEAKER
-#   of the target language. We do not accept unreviewed machine translations.
-#   Fluency, natural phrasing, and cultural accuracy matter.
+# Translations MAY be drafted with the assistance of a machine translation
+# tool or LLM, but they MUST be reviewed and submitted by a NATIVE SPEAKER
+# of the target language. We do not accept unreviewed machine translations.
+# Fluency, natural phrasing, and cultural accuracy matter.
 # ==========================================================================
-
 # Active translations for this locale:
-
-title: "Keep Android Open"
+title: "Maradjon nyílt az Android"
 description: "Az Android támogatása, mint egy szabad, nyílt platform, ahol mindenki tud alkalmazást fejleszteni."
 contact_header: "Kapcsolat"
 contact_email: "E-mail"
@@ -42,7 +40,6 @@ site_privacy: >-
   **Adatvédelem:** Ez a weboldal nem használ cookie-kat, és nem végez felhasználói nyomonkövetést vagy naplózást.
 site_copyright: "**Szerzői jog:** Nincs. Ez a munka"
 open_letter_cta: "Olvasd el nyílt levelünket az Android Fejlesztő Ellenőrzés program ellen"
-
 #
 # ============================================================================
 # TRANSLATABLE KEYS
@@ -51,163 +48,148 @@ open_letter_cta: "Olvasd el nyílt levelünket az Android Fejlesztő Ellenőrzé
 # the English value with your translation. Leave keys you have not yet
 # translated as comments; they will automatically fall back to English.
 # ============================================================================
-
 # Meta
-
 # Hero
-# hero_lede: "Your phone is about to stop being yours."
-# hero_countdown_label: "days until lockdown"
-# hero_sub: "Starting September 2026, a silent update, nonconsensually pushed by Google, will <strong>block every Android app</strong> whose developer hasn't registered with Google, signed their contract, paid ..."
-# hero_kicker: "Every app and every device, worldwide, with no opt-out."
-
+hero_lede: "A telefonod hamarosan megszűnik a tiéd lenni."
+hero_countdown_label: "nap a zárolásig"
+hero_sub: "2026 szeptemberétől egy csendes frissítés, amelyet a Google a felhasználók beleegyezése nélkül küld ki, <strong>blokkolni fog minden Android alkalmazást</strong>, amelynek fejlesztője nem regisztrált a Google-nál, nem írta alá a szerződésüket, nem fizetett ..."
+hero_kicker: "Minden alkalmazás és minden eszköz világszerte, opt-out lehetőség nélkül."
 # What Google is doing
-# what_heading: "What Google is doing"
-# what_intro: "In August 2025, Google <a href=\"https://developer.android.com/developer-verification\" target=\"_blank\">announced &#8599;</a> a new requirement: starting September 2026, <strong>every Android app..."
-# what_registration: "Registration requires:"
-# what_req_fee: "Paying a fee to Google"
-# what_req_terms: "Agreeing to Google's Terms and Conditions"
-# what_req_id: "Surrendering your government-issued identification"
-# what_req_signing: "Providing evidence of your private signing key"
-# what_req_appids: "Listing all current and all future application identifiers"
-# what_pullquote: "If a developer does not comply, their apps get silently blocked on every Android device worldwide."
-
+what_heading: "Mit csinál a Google"
+what_intro: "2025 augusztusában a Google <a href=\"https://developer.android.com/developer-verification\" target=\"_blank\">bejelentette &#8599;</a> az új követelményt: 2026 szeptemberétől <strong>minden Android alkalmazás</strong>..."
+what_registration: "A regisztráció megköveteli:"
+what_req_fee: "Díj fizetését a Google-nak"
+what_req_terms: "A Google Általános Szerződési Feltételeinek elfogadását"
+what_req_id: "A kormány által kiadott személyazonosító igazolvány átadását"
+what_req_signing: "A privát aláíró kulcsod bizonyítékának benyújtását"
+what_req_appids: "Minden jelenlegi és jövőbeli alkalmazásazonosító felsorolását"
+what_pullquote: "Ha egy fejlesztő nem felel meg, az alkalmazásai csendben blokkolódnak minden Android eszközön világszerte."
 # Who this hurts
-# impact_heading: "Who this hurts"
-# impact_you_heading: "You"
-# impact_you_p1: "You bought an Android phone because Google told you it was open. You could install what you wanted, and that was the deal."
-# impact_you_p2: "Google is now rewriting that deal, retroactively, on hardware you already own. After the update lands, you can only run software that Google has pre-approved. On your phone: <i>your</i> property, t..."
-# impact_dev_heading: "Independent developers"
-# impact_dev_p1: "A teenager's first app, a volunteer's privacy tool, or a company's confidential internal beta. It doesn't matter. After September 2026, none of these can be installed without Google's blessing."
-# impact_dev_p2: "<a href=\"https://f-droid.org\" target=\"_blank\">F-Droid &#8599;</a>, home to thousands of free and open-source Android apps, has called this an <a href=\"https://f-droid.org/en/2025/09/29/google-..."
-# impact_gov_heading: "Governments & civil society"
-# impact_gov_p1: "Google has a <a href=\"https://www.aclu.org/news/free-speech/app-store-oligopoly\" target=\"_blank\">documented track record &#8599;</a> of complying when authoritarian regimes demand app removals...."
-# impact_gov_p2: "The <a href=\"https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship\" target=\"_blank\">EFF calls &#8599;</a> app gatekeeping \"an ever-expanding ..."
-
+impact_heading: "Kit érint ez"
+impact_you_heading: "Téged"
+impact_you_p1: "Vettél egy Android telefont, mert a Google azt mondta, hogy nyílt. Telepíthetted, amit akartál, és ez volt az alku."
+impact_you_p2: "A Google most átírja ezt az alkut, visszamenőlegesen, a már birtokolt hardveren. A frissítés után csak olyan szoftvert futtathatsz, amit a Google előzetesen jóváhagyott. A te telefonodon: a <i>te</i> tulajdonodon, t..."
+impact_dev_heading: "Független fejlesztők"
+impact_dev_p1: "Egy tinédzser első alkalmazása, egy önkéntes adatvédelmi eszköze vagy egy cég bizalmas belső bétája. Nem számít. 2026 szeptemberétől egyik sem telepíthető a Google áldása nélkül."
+impact_dev_p2: "<a href=\"https://f-droid.org\" target=\"_blank\">F-Droid &#8599;</a>, több ezer ingyenes és nyílt forráskódú Android alkalmazás otthona, ezt <a href=\"https://f-droid.org/en/2025/09/29/google-...\" target=\"_blank\">„létfontosságú fenyegetésnek”</a> nevezte."
+impact_gov_heading: "Kormányok és civil társadalom"
+impact_gov_p1: "A Google-nak <a href=\"https://www.aclu.org/news/free-speech/app-store-oligopoly\" target=\"_blank\">dokumentált múltja van &#8599;</a> annak, hogy engedelmeskedik, amikor autoriter rezsimek követelik az alkalmazások eltávolítását...."
+impact_gov_p2: "Az <a href=\"https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship\" target=\"_blank\">EFF szerint &#8599;</a> az alkalmazás-átjáró „mindig bővülő ..."
 # Advanced flow
-# flow_heading: "Google's \"escape hatch\" is a trap door"
-# flow_intro: "Google says \"power users\" can <a href=\"https://android-developers.googleblog.com/2026/03/android-developer-verification.html\" target=\"_blank\">\"still install\"</a> unverified apps. Here's wha..."
-# flow_step1: "Delve into System Settings, find Developer Options"
-# flow_step2: "Tap the build number <strong>seven times</strong> to enable Developer Mode"
-# flow_step3: "Dismiss scare screens about coercion"
-# flow_step4: "Enter your PIN"
-# flow_step5: "Restart the device"
-# flow_step6: "<strong>Wait 24 hours</strong>"
-# flow_step7: "Come back, dismiss more scare screens"
-# flow_step8: "Pick \"allow temporarily\" (7 days) or \"allow indefinitely\""
-# flow_step9: "Confirm, again, that you understand \"the risks\""
-# flow_summary: "Nine steps. A mandatory 24-hour cooling-off period. <em>For installing software on a device you own.</em>"
-# flow_detail: "Worse: this flow runs entirely through <strong>Google Play Services</strong>, not the Android OS. Google can change it, tighten it, or kill it at any time, with no OS update required and no consent..."
-
+flow_heading: "A Google „menekülő ajtaja” valójában csapóajtó"
+flow_intro: "A Google azt mondja, hogy a „hatalommal bíró felhasználók” <a href=\"https://android-developers.googleblog.com/2026/03/android-developer-verification.html\" target=\"_blank\">„még mindig telepíthetik”</a> a nem ellenőrzött alkalmazásokat. Íme, mi történik valójában..."
+flow_step1: "Menj a Rendszerbeállításokba, keresd meg a Fejlesztői beállításokat"
+flow_step2: "Koppints a build számra <strong>hétszer</strong> a Fejlesztői mód engedélyezéséhez"
+flow_step3: "Hagyd figyelmen kívül az ijesztő képernyőket a kényszerítésről"
+flow_step4: "Add meg a PIN-kódodat"
+flow_step5: "Indítsd újra az eszközt"
+flow_step6: "<strong>Várj 24 órát</strong>"
+flow_step7: "Gyere vissza, hagyd figyelmen kívül a további ijesztő képernyőket"
+flow_step8: "Válaszd az „ideiglenesen engedélyez” (7 nap) vagy „véglegesen engedélyez” opciót"
+flow_step9: "Erősítsd meg újra, hogy megérted „a kockázatokat”"
+flow_summary: "Kilenc lépés. Kötelező 24 órás hűtési időszak. <em>Egy olyan eszközön futó szoftver telepítéséhez, ami a tiéd.</em>"
+flow_detail: "Ráadásul: ez a folyamat teljes egészében a <strong>Google Play Services</strong>en keresztül fut, nem az Android operációs rendszeren. A Google bármikor megváltoztathatja, szigoríthatja vagy megszüntetheti, operációs rendszer frissítés nélkül és beleegyezés nélkül..."
 # Precedent
-# precedent_heading: "This is bigger than Android"
-# precedent_pullquote: "If Google can retroactively lock down billions of devices that were sold as open platforms, every hardware manufacturer on the planet is watching."
-# precedent_p1: "The principle being established: <strong>the company that made your device gets to decide, after you've bought it, what software you're allowed to run.</strong> In software, this is called a \"rug ..."
-# precedent_p2: "Android's openness was never just a feature. It was the <em>promise</em> that distinguished it from iPhone. Millions chose Android for exactly that reason. Google is now revoking that promise unila..."
-# precedent_arstechnica: "<a href=\"https://arstechnica.com/gadgets/2026/03/with-developer-verification-googles-apple-envy-threatens-to-dismantle-androids-open-legacy/\" target=\"_blank\">Ars Technica &#8599;</a>: <em>\"Goo..."
-
+precedent_heading: "Ez nagyobb, mint az Android"
+precedent_pullquote: "Ha a Google visszamenőlegesen lezárhatja a milliárdnyi eszközt, amit nyílt platformként adtak el, akkor a bolygó minden hardvergyártója figyel."
+precedent_p1: "A megállapított elv: <strong>a cég, amely készítette az eszközödet, a vásárlás után döntheti el, milyen szoftvert futtathatsz.</strong> A szoftvervilágban ezt „szőnyegkihúzásnak” hívják."
+precedent_p2: "Az Android nyitottsága sosem csak egy funkció volt. Ez volt az <em>ígéret</em>, ami megkülönböztette az iPhone-tól. Milliók választották az Androidot pontosan ezért az okból. A Google most egyoldalúan visszavonja ezt az ígéretet..."
+precedent_arstechnica: "<a href=\"https://arstechnica.com/gadgets/2026/03/with-developer-verification-googles-apple-envy-threatens-to-dismantle-androids-open-legacy/\" target=\"_blank\">Ars Technica &#8599;</a>: <em>„A Google Apple-irigysége fenyegeti az Android nyitott örökségének szétbontását”</em>"
 # Objections
-# objections_heading: "But wait, isn't this..."
-# obj_security_q: "\"...just about security?\""
-# obj_security_a: "The security rationale is a smokescreen. Google Play Protect already scans for malware independent of developer identity. Requiring a government ID doesn't make code safer. It makes <em>developers<..."
-# obj_sideloading_q: "\"...still sideloading if you use the advanced flow?\""
-# obj_sideloading_a: "Nine steps, 24-hour wait, buried in Developer Options, delivered through a proprietary service that Google can revoke whenever they want. That's not sideloading. That's a <strong>deterrence mechani..."
-# obj_hide_q: "\"...only a problem if you have something to hide?\""
-# obj_hide_a: "Whistleblowers, journalists, and activists under authoritarian governments will be the first victims. People in domestic abuse situations are next. All these groups have legitimate reasons to distr..."
-# obj_apple_q: "\"...the same thing Apple does?\""
-# obj_apple_a: "Apple has been a walled garden from day one. People chose Android <em>because it was different</em>. \"Apple does it too\" is a race to the bottom and a weak <i>tu quoque</i> argument. And under re..."
-# obj_cost_q: "\"...just $25 and some paperwork?\""
-# obj_cost_a: "Maybe, if you're a developer in the US with a credit card and a driver's license. Try being a student in sub-Saharan Africa, or a dissident in Myanmar, or a volunteer maintaining a community health..."
-
+objections_heading: "De várj, ez nem..."
+obj_security_q: "\"...csak a biztonságról szól?\""
+obj_security_a: "A biztonsági indoklás füstfüggöny. A Google Play Protect már önállóan is szkennel a kártevő szoftverekre a fejlesztői identitástól függetlenül. A kormányzati ID követelése nem teszi biztonságosabbá a kódot. Az <em>fejlesztőket</em> teszi nyomonkövethetővé."
+obj_sideloading_q: "\"...még mindig sideloadolhatsz, ha használod a haladó folyamatot?\""
+obj_sideloading_a: "Kilenc lépés, 24 órás várakozás, elrejtve a Fejlesztői beállításokban, egy saját tulajdonú szolgáltatáson keresztül, amit a Google bármikor visszavonhat. Ez nem sideload. Ez egy <strong>elrettentő mechanizmus</strong>..."
+obj_hide_q: "\"...csak akkor probléma, ha van mit rejtegetned?\""
+obj_hide_a: "A whistleblowerek, újságírók és aktivisták autoriter kormányok alatt lesznek az első áldozatok. A családon belüli erőszak áldozatai következnek. Ezeknek a csoportoknak jogos oka van bizalmatlanságra a központi hatalommal szemben."
+obj_apple_q: "\"...ugyanaz, mint amit az Apple csinál?\""
+obj_apple_a: "Az Apple az első naptól zárt kert volt. Az emberek az Androidot <em>azért választották, mert más volt</em>. Az „Az Apple is csinálja” egy lefelé tartó verseny és gyenge <i>tu quoque</i> érv. És a valóságban..."
+obj_cost_q: "\"...csak 25 dollár és némi papírmunka?\""
+obj_cost_a: "Talán, ha amerikai fejlesztő vagy hitelkártyával és jogosítvánnyal. Próbáld ki diákként Szaharától délre, vagy disszidensként Mianmarban, vagy önkéntesként egy közösségi egészségügyi alkalmazás fenntartásában..."
 # Fight back
-# act_heading: "Fight back"
-# act_everyone_heading: "Everyone"
-# act_fdroid: "<strong><a href=\"https://f-droid.org\" target=\"_blank\">Install F-Droid &#8599;</a></strong> on every Android device you own. Alternative stores only survive if people actually use them."
-# act_regulators: "<strong><a href=\"/cta/#consumers\">Contact your regulators.</a></strong> Regulators worldwide are genuinely concerned about monopolies and the centralization of power in the tech sector, and want ..."
-# act_share: "<strong>Share this page.</strong> Link to <a href=\"https://keepandroidopen.org\">keepandroidopen.org</a> everywhere."
-# act_astroturf: "<strong>Push back on astroturfers.</strong> The \"well, actually...\" crowd is out in force. Don't let them set the narrative."
-# act_petition: "<strong><a href=\"https://www.change.org/p/stop-google-from-limiting-apk-file-usage/\" target=\"_blank\">Sign the change.org petition &#8599;</a></strong> and join the over 100,000 signatories who ..."
-# act_letter: "<strong><a href=\"/open-letter\">Read and share our open letter</a></strong>"
-# act_survey: "<strong>Tell Google what you think of this</strong> through their own <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1\" target=\"..."
-# act_dev_heading: "Developers"
-# act_dev_intro: "<strong style=\"text-transform: uppercase;\">Do not sign up.</strong> Don't join the program by signing up for the Android Developer Console and agreeing to their irrevocable Terms and Conditions. ..."
-# act_dev_resist: "Google's plan only works if developers comply. Don't."
-# act_dev_talk: "Talk other developers and organizations out of signing up."
-# act_dev_warn: "Add the <a href=\"https://github.com/woheller69/FreeDroidWarn\" target=\"_blank\">FreeDroidWarn library &#8599;</a> to your apps to warn users."
-# act_dev_banner: "Run a website? <a href=\"/banner\">Add the countdown banner.</a>"
-# act_google_heading: "Google employees"
-# act_google_text: "If you know something about the program's technical implementation or internal rationale, contact <a href=\"mailto:tips@keepandroidopen.org\">tips@keepandroidopen.org</a> from a <em>non-work</em> m..."
-
+act_heading: "Védjük meg"
+act_everyone_heading: "Mindenki"
+act_fdroid: "<strong><a href=\"https://f-droid.org\" target=\"_blank\">Telepítsd az F-Droidot &#8599;</a></strong> minden Android eszközödre. Az alternatív boltok csak akkor maradnak életben, ha az emberek tényleg használják őket."
+act_regulators: "<strong><a href=\"/cta/#consumers\">Lépj kapcsolatba a szabályozóiddal.</a></strong> A szabályozók világszerte valóban aggódnak a monopóliumok és a technológiai szektor hatalom-centralizációja miatt, és..."
+act_share: "<strong>Oszd meg ezt az oldalt.</strong> Linkelj a <a href=\"https://keepandroidopen.org\">keepandroidopen.org</a>-ra mindenhol."
+act_astroturf: "<strong>Ellenkezz az astroturferekkel.</strong> A „nos, valójában...” tömeg aktív. Ne hagyd, hogy ők diktálják a narratívát."
+act_petition: "<strong><a href=\"https://www.change.org/p/stop-google-from-limiting-apk-file-usage/\" target=\"_blank\">Írd alá a change.org petíciót &#8599;</a></strong> és csatlakozz a több mint 100 000 aláíróhoz, akik..."
+act_letter: "<strong><a href=\"/open-letter\">Olvasd el és oszd meg a nyílt levelünket</a></strong>"
+act_survey: "<strong>Mondd el a Google-nak, mit gondolsz erről</strong> a saját <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1\" target=\"...\">űrlapjukon</a>"
+act_dev_heading: "Fejlesztők"
+act_dev_intro: "<strong style=\"text-transform: uppercase;\">NE iratkozz fel.</strong> Ne csatlakozz a programhoz az Android Developer Console-on való regisztrációval és az ő visszavonhatatlan Általános Szerződési Feltételeik elfogadásával. ..."
+act_dev_resist: "A Google terve csak akkor működik, ha a fejlesztők engedelmeskednek. Ne tedd."
+act_dev_talk: "Beszéld le a többi fejlesztőt és szervezetet a feliratkozásról."
+act_dev_warn: "Add hozzá a <a href=\"https://github.com/woheller69/FreeDroidWarn\" target=\"_blank\">FreeDroidWarn könyvtárat &#8599;</a> az alkalmazásaidhoz, hogy figyelmeztesd a felhasználókat."
+act_dev_banner: "Van weboldalad? <a href=\"/banner\">Add hozzá a visszaszámláló bannert.</a>"
+act_google_heading: "Google alkalmazottak"
+act_google_text: "Ha tudsz valamit a program technikai megvalósításáról vagy belső indoklásáról, vedd fel a kapcsolatot a <a href=\"mailto:tips@keepandroidopen.org\">tips@keepandroidopen.org</a> címen egy <em>munkahelyi</em> e-mailtől eltérőről..."
 # Voices section
-# voices_heading: "What they're saying"
-# voices_press: "Tech press"
-# voices_editorials: "Editorials & analysis"
-# voices_orgs: "Organizations & open letters"
-# voices_creators: "YouTubers & creators"
-# voices_community: "Developers & community"
-# voices_petition: "Voices from the petition"
-# voices_more: "All references, editorials, press coverage, and videos"
-
+voices_heading: "Mit mondanak"
+voices_press: "Tech sajtó"
+voices_editorials: "Szerkesztőségek és elemzések"
+voices_orgs: "Szervezetek és nyílt levelek"
+voices_creators: "YouTuberek és alkotók"
+voices_community: "Fejlesztők és közösség"
+voices_petition: "Hangok a petícióból"
+voices_more: "Minden hivatkozás, szerkesztőségi cikk, sajtóanyag és videó"
 # Signatories section
-# signatories_heading: "All those opposed&hellip;"
-# signatories_count: "{count} organizations from {countries} countries have signed the"
-# signatories_open_letter_link: "open letter"
-# signatories_more: "Read the full open letter and thank the signatories"
-
+signatories_heading: "Mindenki, aki ellenzi&hellip;"
+signatories_count: "{count} szervezet {countries} országból aláírta a"
+signatories_open_letter_link: "nyílt levelet"
+signatories_more: "Olvasd el a teljes nyílt levelet és köszönj meg az aláíróknak"
 # CTA banners
-# cta_action_label: "Take Action"
-# cta_action_desc: "Full resource list, regulator contacts, links for every country, and how to fight back"
-# cta_letter_label: "Open Letter"
-# cta_letter_desc: "Read the open letter signed by organizations opposing developer verification"
-
+cta_action_label: "Tegyen lépéseket"
+cta_action_desc: "Teljes erőforráslista, szabályozó kapcsolatok, linkek minden országhoz és hogyan harcolj vissza"
+cta_letter_label: "Nyílt levél"
+cta_letter_desc: "Olvasd el a nyílt levelet, amelyet a fejlesztőellenőrzés ellen tiltakozó szervezetek írtak alá"
 # Closing
-# closing_line1: "You bought your phone."
-# closing_line2: "You should decide what runs on it."
-# closing_detail: "That shouldn't require a 9-step process, a 24-hour wait, and Google's ongoing permission."
-# closing_cta: "Share this page. Don't sign up. Don't let them close Android."
-# closing_share_heading: "Spread the word"
-
+closing_line1: "Megvetted a telefonodat."
+closing_line2: "Neked kell eldöntened, mi fusson rajta."
+closing_detail: "Ennek nem kellene kilenc lépéses folyamatot, 24 órás várakozást és a Google folyamatos engedélyét igényelnie."
+closing_cta: "Oszd meg ezt az oldalt. Ne iratkozz fel. Ne hagyd, hogy bezárják az Androidot."
+closing_share_heading: "Terjeszd a szót"
 # Social share messages (rotated randomly; {url} is replaced at build time)
-# social_callout_x_1: "Starting September 2026, Google will block any Android app whose developer hasn't registered and provided government ID. This affects every Android device worldwide. Learn more: {url} @AlteredDeal ..."
-# social_callout_x_2: "Google announced that all Android app developers must register centrally, pay a fee, and submit government ID, or their apps will be blocked on every device. over 67 organizations oppose this. {url} @A..."
-# social_callout_x_3: "Android's openness distinguished it from iPhone for 17 years. Google is now requiring mandatory developer registration for all apps, including those distributed outside the Play Store. {url} #KeepA..."
-# social_callout_x_4: "F-Droid, the open-source Android app store, calls Google's developer verification an \"existential threat\" to alternative app distribution. The EFF warns it creates a pathway to censorship. {url} ..."
-# social_callout_x_5: "Google's proposed workaround for installing unverified apps requires 9 steps, a 24-hour wait, and runs through Play Services, which Google can modify at any time. It hasn't shipped in any beta. {ur..."
-# social_callout_linkedin_1: "Starting September 2026, Google will require every Android app developer to register centrally and provide government-issued identification before their software can be installed on any device. Thi..."
-# social_callout_linkedin_2: "Android's openness has been its distinguishing feature for nearly two decades. Google is now mandating developer registration for all Android apps, including those distributed through alternative s..."
-# social_callout_linkedin_3: "Google's developer verification program would give a single company the technical ability to block any app, from any developer, on any certified Android device worldwide. This affects independent d..."
-# social_callout_linkedin_4: "F-Droid estimates 85% of its open-source apps could face distribution issues under Google's new developer verification rules. The requirement for government ID and signing keys creates barriers for..."
-# social_callout_linkedin_5: "Google's proposed \"advanced flow\" for sideloading unverified apps requires 9 steps, a mandatory 24-hour waiting period, and runs entirely through Google Play Services. The community has been aske..."
-# social_callout_bluesky_1: "Starting September 2026, Google will block any Android app whose developer hasn't registered and provided government ID. This affects all apps, not just Play Store apps. F-Droid calls it an \"exist..."
-# social_callout_bluesky_2: "Google is requiring all Android developers to register centrally, pay a fee, and submit government ID. Apps from unregistered developers will be silently blocked. over 67 organizations oppose this. @ke..."
-# social_callout_bluesky_3: "After 17 years of marketing Android as an open platform, Google is mandating developer registration for all apps. Independent developers, open-source contributors, and alternative stores like F-Dro..."
-# social_callout_bluesky_4: "Google's proposed workaround for installing unverified apps: 9 steps, a 24-hour wait, delivered through Play Services (which Google can change at any time without consent). It exists only as a blog..."
-# social_callout_bluesky_5: "The EFF warns that Google's developer verification creates \"a pathway to censorship.\" Developers in restrictive countries, anonymous open-source contributors, and privacy tool maintainers are amo..."
-# social_callout_mastodon_1: "Starting September 2026, Google will require every Android app developer to register centrally, provide government ID, and submit signing keys. Apps from unregistered developers will be blocked on ..."
-# social_callout_mastodon_2: "Google's Android Developer Verification program requires government ID, signing keys, and a fee for any developer who wants their software installable on Android. The EFF calls app gatekeeping \"a ..."
-# social_callout_mastodon_3: "F-Droid, home to thousands of free and open-source Android apps, calls Google's developer verification an \"existential threat.\" An estimated 85% of F-Droid apps could face distribution issues bec..."
-# social_callout_mastodon_4: "Google's proposed workaround for sideloading unverified apps requires 9 steps, a mandatory 24-hour waiting period, and is delivered through Google Play Services, not the Android OS. Google can modi..."
-# social_callout_mastodon_5: "The mandatory developer registration Google is imposing on Android raises concerns for developers in sanctioned countries, anonymous open-source contributors, and anyone building privacy or securit..."
-# social_callout_facebook_1: "Starting September 2026, Google will require every Android app developer to register centrally and provide government-issued identification. Apps from unregistered developers will be blocked on all..."
-# social_callout_facebook_2: "F-Droid, the open-source Android app store used by millions, calls Google's developer verification an \"existential threat\" to its continued operation. over 67 organizations including the EFF, FSF, an..."
-# social_callout_facebook_3: "Google's proposed workaround for installing unverified apps after their lockdown takes effect requires 9 steps, a mandatory 24-hour waiting period, and runs through Google Play Services (which Goog..."
-# social_callout_facebook_4: "Android's openness has been its defining characteristic for 17 years. Millions chose it over iPhone for exactly that reason. Google is now mandating developer registration for all apps, including t..."
-# social_callout_facebook_5: "The EFF calls app gatekeeping \"a pathway to censorship.\" Google's developer verification would give a single company the ability to block any app, from any developer, on any certified device worl..."
-
+social_callout_x_1: "2026 szeptemberétől a Google blokkolni fog minden Android alkalmazást, amelynek fejlesztője nem regisztrált és nem szolgáltatott kormányzati személyazonosítót. Ez minden Android eszközt érint világszerte. Tudj meg többet: {url} @AlteredDeal ..."
+social_callout_x_2: "A Google bejelentette, hogy minden Android-alkalmazás-fejlesztőnek központilag regisztrálnia kell, díjat kell fizetnie és kormányzati ID-t kell benyújtania, különben az alkalmazásai blokkolódnak minden eszközön. Több mint 67 szervezet tiltakozik. {url} @A..."
+social_callout_x_3: "Az Android nyitottsága 17 éven át különböztette meg az iPhone-tól. A Google most kötelező fejlesztői regisztrációt ír elő minden alkalmazásra, beleértve azokat is, amelyek a Play Store-on kívül terjesztődnek. {url} #KeepAndroidOpen"
+social_callout_x_4: "Az F-Droid, a nyílt forráskódú Android-alkalmazásbolt „létfontosságú fenyegetésnek” nevezi a Google fejlesztőellenőrzését az alternatív alkalmazás-terjesztésre nézve. Az EFF szerint ez a cenzúra útját nyitja meg. {url} ..."
+social_callout_x_5: "A Google javasolt kerülőútja a nem ellenőrzött alkalmazások telepítésére kilenc lépést, 24 órás várakozást igényel, és a Play Services-en keresztül fut, amit a Google bármikor módosíthat. Még egyetlen bétában sem jelent meg. {url}..."
+social_callout_linkedin_1: "2026 szeptemberétől a Google minden Android-alkalmazás-fejlesztőtől központi regisztrációt és kormányzati személyazonosító benyújtását követel, mielőtt a szoftverük bármely eszközre telepíthető lenne. Ez minden Android eszközt érint világszerte..."
+social_callout_linkedin_2: "Az Android nyitottsága közel két évtizede volt a megkülönböztető jellemzője. A Google most kötelező fejlesztői regisztrációt ír elő minden Android-alkalmazásra, beleértve az alternatív boltokon keresztül terjesztetteket is..."
+social_callout_linkedin_3: "A Google fejlesztőellenőrzési programja egyetlen cégnek adná meg a technikai lehetőséget, hogy bármilyen alkalmazást blokkoljon bármely fejlesztőtől bármely tanúsított Android eszközön világszerte. Ez a független fejlesztőket..."
+social_callout_linkedin_4: "Az F-Droid szerint a nyílt forráskódú alkalmazásainak 85%-a problémákkal szembesülhet a Google új fejlesztőellenőrzési szabályai miatt. A kormányzati ID és az aláíró kulcsok követelménye akadályokat állít fel..."
+social_callout_linkedin_5: "A Google javasolt „haladó folyamata” a nem ellenőrzött alkalmazások sideloadolására kilenc lépést, kötelező 24 órás várakozási időszakot igényel, és teljes egészében a Google Play Services-en keresztül fut. A közösség már kérte..."
+social_callout_bluesky_1: "2026 szeptemberétől a Google blokkolni fog minden Android alkalmazást, amelynek fejlesztője nem regisztrált és nem szolgáltatott kormányzati ID-t. Ez minden alkalmazást érint, nem csak a Play Store-osokat. Az F-Droid „létfontosságú fenyegetésnek” nevezi..."
+social_callout_bluesky_2: "A Google minden Android-fejlesztőtől központi regisztrációt, díjfizetést és kormányzati ID-t követel. A nem regisztrált fejlesztők alkalmazásai csendben blokkolódnak. Több mint 67 szervezet tiltakozik. @keepandroidopen..."
+social_callout_bluesky_3: "17 évnyi „nyílt platform” marketing után a Google kötelező fejlesztői regisztrációt ír elő minden alkalmazásra. A független fejlesztők, nyílt forráskódú közreműködők és az F-Droidhoz hasonló alternatív boltok..."
+social_callout_bluesky_4: "A Google javasolt kerülőútja a nem ellenőrzött alkalmazások telepítésére: kilenc lépés, 24 órás várakozás, a Play Services-en keresztül (amit a Google bármikor módosíthat beleegyezés nélkül). Csak egy blogposztban létezik..."
+social_callout_bluesky_5: "Az EFF szerint a Google fejlesztőellenőrzése „a cenzúra útját” nyitja meg. A korlátozó országokban élő fejlesztők, az anonimitást használó nyílt forráskódú közreműködők és a privacy-eszközök készítői..."
+social_callout_mastodon_1: "2026 szeptemberétől a Google minden Android-alkalmazás-fejlesztőtől központi regisztrációt, kormányzati ID-t és aláíró kulcsokat követel. A nem regisztrált fejlesztők alkalmazásai blokkolódnak minden eszközön..."
+social_callout_mastodon_2: "A Google Android Developer Verification programja kormányzati ID-t, aláíró kulcsokat és díjat követel minden fejlesztőtől, aki azt szeretné, hogy a szoftvere telepíthető legyen Androidon. Az EFF szerint az alkalmazás-átjáró „a cenzúra mindig bővülő útja”..."
+social_callout_mastodon_3: "Az F-Droid, több ezer ingyenes és nyílt forráskódú Android-alkalmazás otthona „létfontosságú fenyegetésnek” nevezi a Google fejlesztőellenőrzését. Az F-Droid alkalmazásainak becslések szerint 85%-a terjesztési problémákkal szembesülhet..."
+social_callout_mastodon_4: "A Google javasolt kerülőútja a nem ellenőrzött alkalmazások sideloadolására kilenc lépést, kötelező 24 órás várakozási időszakot igényel, és a Google Play Services-en keresztül fut, nem az Android operációs rendszeren. A Google bármikor módosíthatja..."
+social_callout_mastodon_5: "A Google által az Androidra kényszerített kötelező fejlesztői regisztráció aggályokat vet fel a szankcionált országokban dolgozó fejlesztők, az anonimitást használó nyílt forráskódú közreműködők és a privacy- vagy biztonsági eszközöket készítők számára..."
+social_callout_facebook_1: "2026 szeptemberétől a Google minden Android-alkalmazás-fejlesztőtől központi regisztrációt és kormányzati személyazonosító benyújtását követel. A nem regisztrált fejlesztők alkalmazásai blokkolódnak minden eszközön..."
+social_callout_facebook_2: "Az F-Droid, a nyílt forráskódú Android-alkalmazásbolt, amit milliók használnak, „létfontosságú fenyegetésnek” nevezi a Google fejlesztőellenőrzését a működésére nézve. Több mint 67 szervezet, köztük az EFF, az FSF és mások tiltakoznak..."
+social_callout_facebook_3: "A Google javasolt kerülőútja a nem ellenőrzött alkalmazások telepítésére a zárolás után kilenc lépést, kötelező 24 órás várakozási időszakot igényel, és a Google Play Services-en keresztül fut (amit a Google bármikor módosíthat)..."
+social_callout_facebook_4: "Az Android nyitottsága 17 éven át volt a meghatározó jellemzője. Milliók választották emiatt az iPhone helyett. A Google most kötelező fejlesztői regisztrációt ír elő minden alkalmazásra, beleértve az alternatív boltokon keresztül terjesztetteket is..."
+social_callout_facebook_5: "Az EFF szerint az alkalmazás-átjáró „a cenzúra útját” nyitja meg. A Google fejlesztőellenőrzése egyetlen cégnek adná meg a lehetőséget, hogy bármilyen alkalmazást blokkoljon bármely fejlesztőtől bármely tanúsított eszközön világszerte..."
 # Social button labels
-# spread_label_x: "Post on X"
-# spread_label_mastodon: "Post on Mastodon"
-# spread_label_bluesky: "Post on Bluesky"
-# spread_label_linkedin: "LinkedIn"
-# spread_label_facebook: "Facebook"
-
+spread_label_x: "Bejegyzés az X-en"
+spread_label_mastodon: "Bejegyzés a Mastodonon"
+spread_label_bluesky: "Bejegyzés a Blueskyon"
+spread_label_linkedin: "LinkedIn"
+spread_label_facebook: "Facebook"
 # Footer
-# footer_get_involved: "Get involved"
-# footer_take_action: "Take action & resources"
-# footer_open_letter: "Open letter"
-# footer_add_banner: "Add countdown banner"
-# footer_sign_petition: "Sign the petition"
-# footer_contact: "Contact"
-# footer_report_issues: "Report site issues"
-# footer_translations: "Translations"
-# footer_languages: "English (+ 30 languages)"
-# footer_help_translate: "Help translate"
+footer_get_involved: "Vegyél részt"
+footer_take_action: "Tegyen lépéseket és források"
+footer_open_letter: "Nyílt levél"
+footer_add_banner: "Add hozzá a visszaszámláló bannert"
+footer_sign_petition: "Írd alá a petíciót"
+footer_contact: "Kapcsolat"
+footer_report_issues: "Jelents webhelyproblémákat"
+footer_translations: "Fordítások"
+footer_languages: "Angol (+ 30 nyelv)"
+footer_help_translate: "Segíts fordítani"
